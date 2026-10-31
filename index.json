@@ -99,6 +99,17 @@
       "permissionsSummary": "Runs a hook after each Bash and PowerShell call that reads the output of a test run and keeps its result in the kit's own data folder; a tab reads it and, when you click, sends a failure to an agent of the workspace.",
       "tags": ["testing", "hooks", "tab"],
       "verified": true
+    },
+    {
+      "id": "todo",
+      "name": "TODO",
+      "description": "Lists the TODO, FIXME, HACK and XXX comments of the project, grouped by file or by tag, and hands any of them to an agent in one click.",
+      "repo": "hangar-ai/kit-todo",
+      "tag": "v0.1.0",
+      "version": "0.1.0",
+      "permissionsSummary": "Runs one declared command, a Node script that only reads the workspace's files .gitignore leaves in (and `git blame` on one file when you ask); opens a file in the preview when you click; keeps the last scan in the kit's data folder; sends a comment to an agent only when you click.",
+      "tags": ["tasks", "code", "tab"],
+      "verified": true
     }
   ]
 }

@@ -23,7 +23,7 @@
     {
       "repo": "hangar-ai/kit-editor",
       "tag": "v0.1.0",
-      "commit": "fa9bfebbc71b3d5f3d042b0e516d90d2c466beda"
+      "commit": "53339ab0ab8d6004216516af64a826116a5003df"
     },
     {
       "repo": "hangar-ai/kit-github",
@@ -43,7 +43,12 @@
     {
       "repo": "hangar-ai/kit-tests",
       "tag": "v0.1.0",
-      "commit": "0c39989d080a75f07a6d94cac37e3c38a61a88be"
+      "commit": "5f8aff473ab36526f09ff7573a56256b8d3fc7fa"
+    },
+    {
+      "repo": "hangar-ai/kit-todo",
+      "tag": "v0.1.0",
+      "commit": "8c5a8bbb952ea8bd9631108caf350bb88a6e64e5"
     }
   ]
 }
