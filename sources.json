@@ -3,17 +3,22 @@
     {
       "repo": "hangar-ai/kit-annotate",
       "tag": "v0.1.0",
-      "commit": "1ea97c110d6e410987301d7fc24a5ca879686858"
+      "commit": "63d433890a5839fee1db19f6e1ade1fc0be55375"
     },
     {
       "repo": "hangar-ai/kit-checklist",
       "tag": "v0.1.0",
-      "commit": "02263d528769691832d844159f5a90cc0540fedf"
+      "commit": "7af92d6b99af962aa3fdf4683f435a0e3e3485d8"
     },
     {
       "repo": "hangar-ai/kit-ci",
       "tag": "v0.1.0",
       "commit": "8f9a3a54068ec2391e9ef154c9238d083425d488"
+    },
+    {
+      "repo": "hangar-ai/kit-db",
+      "tag": "v0.1.0",
+      "commit": "e7e0a95c1b19e6e55b6f85a8bec20e1b834c59c8"
     },
     {
       "repo": "hangar-ai/kit-deps",
@@ -23,7 +28,7 @@
     {
       "repo": "hangar-ai/kit-editor",
       "tag": "v0.1.0",
-      "commit": "53339ab0ab8d6004216516af64a826116a5003df"
+      "commit": "51da982cdd61c945f09c0761f6097550b5a9a4da"
     },
     {
       "repo": "hangar-ai/kit-github",
@@ -33,7 +38,7 @@
     {
       "repo": "hangar-ai/kit-guard",
       "tag": "v0.1.0",
-      "commit": "5feb70e9af14453caf014120b10a591345b8413e"
+      "commit": "31c3b360679e3037efd234eeab460db96f31938f"
     },
     {
       "repo": "hangar-ai/kit-services",

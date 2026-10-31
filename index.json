@@ -3,7 +3,7 @@
   "kits": [
     {
       "id": "annotate",
-      "name": "Annoter",
+      "name": "Annotate",
       "description": "Circle what is wrong on a capture, write a word beside it, and the agent that asked receives the annotated image and your notes.",
       "repo": "hangar-ai/kit-annotate",
       "tag": "v0.1.0",
@@ -14,7 +14,7 @@
     },
     {
       "id": "checklist",
-      "name": "Recette",
+      "name": "Checklist",
       "description": "A tab where a person works through a list of manual checks an agent wrote, and the agent gets the result back to fix what failed.",
       "repo": "hangar-ai/kit-checklist",
       "tag": "v0.1.0",
@@ -35,6 +35,17 @@
       "verified": true
     },
     {
+      "id": "db",
+      "name": "Database",
+      "description": "Opens a SQLite database of the project read-only: its tables with their counts, a table's structure and rows with sort and paging. Values stay on screen unless you hand the table and a question to an agent.",
+      "repo": "hangar-ai/kit-db",
+      "tag": "v0.1.0",
+      "version": "0.1.0",
+      "permissionsSummary": "Runs four declared commands, a Node script that opens a SQLite file of the workspace read-only (no SQL of your own) to list databases, tables, a structure and rows; keeps your last choice in the kit's data folder; sends a table and your question, never its rows, to an agent only when you click.",
+      "tags": ["database", "sqlite", "tab"],
+      "verified": true
+    },
+    {
       "id": "deps",
       "name": "Dependencies",
       "description": "Lists the vulnerable and out-of-date packages of the project from its lockfile, when you ask, and hands any of them to an agent. Agents read the last audit instead of running it again.",
@@ -47,7 +58,7 @@
     },
     {
       "id": "editor",
-      "name": "Éditeur",
+      "name": "Editor",
       "description": "Opens a .env or a config file in a tab for you to fill in or check, so that an agent that needs a secret goes on without ever seeing it.",
       "repo": "hangar-ai/kit-editor",
       "tag": "v0.1.0",
