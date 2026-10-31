@@ -1,0 +1,104 @@
+{
+  "schema": 2,
+  "kits": [
+    {
+      "id": "annotate",
+      "name": "Annoter",
+      "description": "Circle what is wrong on a capture, write a word beside it, and the agent that asked receives the annotated image and your notes.",
+      "repo": "hangar-ai/kit-annotate",
+      "tag": "v0.1.0",
+      "version": "0.1.0",
+      "permissionsSummary": "Reads an image of the workspace, writes the annotated PNG and a JSON of the notes to .hangar/annotations/, and tells the agent that asked where they are.",
+      "tags": ["screenshot", "feedback", "tab"],
+      "verified": true
+    },
+    {
+      "id": "checklist",
+      "name": "Recette",
+      "description": "A tab where a person works through a list of manual checks an agent wrote, and the agent gets the result back to fix what failed.",
+      "repo": "hangar-ai/kit-checklist",
+      "tag": "v0.1.0",
+      "version": "0.1.0",
+      "permissionsSummary": "Reads the checklist file an agent wrote in the workspace, keeps your answers in the kit's own data folder, and sends the agent that asked a plain summary of the results. Changes no project file.",
+      "tags": ["testing", "review", "tab"],
+      "verified": true
+    },
+    {
+      "id": "ci-status",
+      "name": "CI status",
+      "description": "A tab that follows a GitHub Actions run, opened by itself after a git push.",
+      "repo": "hangar-ai/kit-ci",
+      "tag": "v0.1.0",
+      "version": "0.1.0",
+      "permissionsSummary": "Runs the GitHub CLI (gh run list, gh run view) to read CI runs, shows a tab and sends notifications, and runs a hook after git push to open that tab.",
+      "tags": ["ci", "github", "tab"],
+      "verified": true
+    },
+    {
+      "id": "deps",
+      "name": "Dependencies",
+      "description": "Lists the vulnerable and out-of-date packages of the project from its lockfile, when you ask, and hands any of them to an agent. Agents read the last audit instead of running it again.",
+      "repo": "hangar-ai/kit-deps",
+      "tag": "v0.1.0",
+      "version": "0.1.0",
+      "permissionsSummary": "Runs one declared command, a Node script that calls your package manager's read-only audit and outdated commands (pnpm, npm, yarn, cargo, pip) when you click; keeps the last result in the kit's own data folder; and sends a package to an agent of the workspace only when you click.",
+      "tags": ["dependencies", "security", "tab"],
+      "verified": true
+    },
+    {
+      "id": "editor",
+      "name": "Éditeur",
+      "description": "Opens a .env or a config file in a tab for you to fill in or check, so that an agent that needs a secret goes on without ever seeing it.",
+      "repo": "hangar-ai/kit-editor",
+      "tag": "v0.1.0",
+      "version": "0.1.0",
+      "permissionsSummary": "Reads and changes text files of the workspace, .env and other hidden files included, and tells the agent that asked which keys were set, never their values.",
+      "tags": ["env", "secrets", "config", "tab"],
+      "verified": true
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "description": "The open pull requests and issues of the repository, with their checks and reviews, each handed to an agent in one click.",
+      "repo": "hangar-ai/kit-github",
+      "tag": "v0.1.0",
+      "version": "0.1.0",
+      "permissionsSummary": "Runs the GitHub CLI read-only (gh repo view, gh pr list and view, gh issue list and view, gh api graphql with a fixed query for review threads), shows two tabs, sends a brief to an agent of the workspace when you ask, and keeps its filters in the kit's own data folder. Nothing is written to GitHub.",
+      "tags": ["github", "pull-requests", "issues", "tab"],
+      "verified": true
+    },
+    {
+      "id": "guard",
+      "name": "Guardrails",
+      "description": "Refuses dangerous commands and the reading of secrets before they run. You let one through once, in a click, from its tab.",
+      "repo": "hangar-ai/kit-guard",
+      "tag": "v0.1.0",
+      "version": "0.1.0",
+      "permissionsSummary": "Runs a hook before each call of a tool that runs a command or touches a file (Bash, PowerShell, Monitor, Read, Edit, Write, Grep and the others its README lists) that can refuse it, shows a tab listing the refusals, and keeps them with its one-time passes in the kit's own data folder.",
+      "tags": ["safety", "hooks", "tab"],
+      "verified": true
+    },
+    {
+      "id": "services",
+      "name": "Services",
+      "description": "What is running on this computer, on which port, and whose it is: listening ports and Docker containers, tied to the worker whose port block they sit in, without a terminal.",
+      "repo": "hangar-ai/kit-services",
+      "tag": "v0.1.0",
+      "version": "0.1.0",
+      "permissionsSummary": "Runs three read-only commands (a small Node script that lists listening ports, docker ps and docker logs), reads the workspace's panels to name a port's worker, and sends a message to a panel only when you ask an agent to stop something. It stops nothing itself.",
+      "tags": ["ports", "docker", "workers", "tab"],
+      "verified": true
+    },
+    {
+      "id": "tests",
+      "name": "Tests",
+      "description": "Shows whether the tests pass without reading a terminal, and hands a failure to an agent in one click. Agents read the last result instead of running everything again.",
+      "repo": "hangar-ai/kit-tests",
+      "tag": "v0.1.0",
+      "version": "0.1.0",
+      "permissionsSummary": "Runs a hook after each Bash and PowerShell call that reads the output of a test run and keeps its result in the kit's own data folder; a tab reads it and, when you click, sends a failure to an agent of the workspace.",
+      "tags": ["testing", "hooks", "tab"],
+      "verified": true
+    }
+  ]
+}
