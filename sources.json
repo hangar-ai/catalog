@@ -37,13 +37,13 @@
     },
     {
       "repo": "hangar-ai/kit-guard",
-      "tag": "v0.1.0",
-      "commit": "31c3b360679e3037efd234eeab460db96f31938f"
+      "tag": "v0.1.1",
+      "commit": "351774d5d2cb7cd4ac1cccce64e4d7f3252ed59d"
     },
     {
       "repo": "hangar-ai/kit-services",
-      "tag": "v0.1.0",
-      "commit": "f90890ab91c170c723136b5442e272d431a0d23f"
+      "tag": "v0.1.1",
+      "commit": "19d53cd2f6eb64ed0057b419b10bb09b35be020a"
     },
     {
       "repo": "hangar-ai/kit-tests",

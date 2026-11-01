@@ -83,8 +83,8 @@
       "name": "Guardrails",
       "description": "Refuses dangerous commands and the reading of secrets before they run. You let one through once, in a click, from its tab.",
       "repo": "hangar-ai/kit-guard",
-      "tag": "v0.1.0",
-      "version": "0.1.0",
+      "tag": "v0.1.1",
+      "version": "0.1.1",
       "permissionsSummary": "Runs a hook before each call of a tool that runs a command or touches a file (Bash, PowerShell, Monitor, Read, Edit, Write, Grep and the others its README lists) that can refuse it, shows a tab listing the refusals, and keeps them with its one-time passes in the kit's own data folder.",
       "tags": ["safety", "hooks", "tab"],
       "verified": true
@@ -94,8 +94,8 @@
       "name": "Services",
       "description": "What is running on this computer, on which port, and whose it is: listening ports and Docker containers, tied to the worker whose port block they sit in, without a terminal.",
       "repo": "hangar-ai/kit-services",
-      "tag": "v0.1.0",
-      "version": "0.1.0",
+      "tag": "v0.1.1",
+      "version": "0.1.1",
       "permissionsSummary": "Runs three read-only commands (a small Node script that lists listening ports, docker ps and docker logs), reads the workspace's panels to name a port's worker, and sends a message to a panel only when you ask an agent to stop something. It stops nothing itself.",
       "tags": ["ports", "docker", "workers", "tab"],
       "verified": true
