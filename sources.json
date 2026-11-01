@@ -12,13 +12,13 @@
     },
     {
       "repo": "hangar-ai/kit-ci",
-      "tag": "v0.1.0",
-      "commit": "8f9a3a54068ec2391e9ef154c9238d083425d488"
+      "tag": "v0.1.1",
+      "commit": "bddc9a427837e4383e0a4764b65b28a9668503a0"
     },
     {
       "repo": "hangar-ai/kit-db",
-      "tag": "v0.1.0",
-      "commit": "e7e0a95c1b19e6e55b6f85a8bec20e1b834c59c8"
+      "tag": "v0.1.1",
+      "commit": "09de95b8675e2e41c333d933d944dec0c4032c2b"
     },
     {
       "repo": "hangar-ai/kit-deps",

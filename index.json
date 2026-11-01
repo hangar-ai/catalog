@@ -28,8 +28,8 @@
       "name": "CI status",
       "description": "A tab that follows a GitHub Actions run, opened by itself after a git push.",
       "repo": "hangar-ai/kit-ci",
-      "tag": "v0.1.0",
-      "version": "0.1.0",
+      "tag": "v0.1.1",
+      "version": "0.1.1",
       "permissionsSummary": "Runs the GitHub CLI (gh run list, gh run view) to read CI runs, shows a tab and sends notifications, and runs a hook after git push to open that tab.",
       "tags": ["ci", "github", "tab"],
       "verified": true
@@ -39,8 +39,8 @@
       "name": "Database",
       "description": "Opens a SQLite database of the project read-only: its tables with their counts, a table's structure and rows with sort and paging. Values stay on screen unless you hand the table and a question to an agent.",
       "repo": "hangar-ai/kit-db",
-      "tag": "v0.1.0",
-      "version": "0.1.0",
+      "tag": "v0.1.1",
+      "version": "0.1.1",
       "permissionsSummary": "Runs four declared commands, a Node script that opens a SQLite file of the workspace read-only (no SQL of your own) to list databases, tables, a structure and rows; keeps your last choice in the kit's data folder; sends a table and your question, never its rows, to an agent only when you click.",
       "tags": ["database", "sqlite", "tab"],
       "verified": true
