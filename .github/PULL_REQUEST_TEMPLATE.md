@@ -37,4 +37,4 @@ follows, verbatim.
 - [ ] The skills do not tell an agent to go around a person, a hook or a permission.
 - [ ] The tag points at the commit recorded in `sources.json`, and `check` passes.
 
-Docs: [the kit contract](https://github.com/simnJS/hangar-ai/blob/main/docs/kits.md), including [what runs by itself](https://github.com/simnJS/hangar-ai/blob/main/docs/kits.md#what-runs-by-itself).
+Docs: [the kit contract](https://github.com/hangar-ai/hangar/blob/main/docs/kits.md), including [what runs by itself](https://github.com/hangar-ai/hangar/blob/main/docs/kits.md#what-runs-by-itself).
