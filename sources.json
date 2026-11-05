@@ -2,8 +2,8 @@
   "kits": [
     {
       "repo": "hangar-ai/kit-annotate",
-      "tag": "v0.1.0",
-      "commit": "63d433890a5839fee1db19f6e1ade1fc0be55375"
+      "tag": "v0.2.0",
+      "commit": "8ddbbe0ea6d35162d7cd746c4b25977bb151a80a"
     },
     {
       "repo": "hangar-ai/kit-checklist",
@@ -12,8 +12,8 @@
     },
     {
       "repo": "hangar-ai/kit-ci",
-      "tag": "v0.1.1",
-      "commit": "bddc9a427837e4383e0a4764b65b28a9668503a0"
+      "tag": "v0.2.0",
+      "commit": "cfa58b43a2a466a414985ac9fec447bee02ac2cd"
     },
     {
       "repo": "hangar-ai/kit-db",
@@ -22,38 +22,38 @@
     },
     {
       "repo": "hangar-ai/kit-deps",
-      "tag": "v0.1.0",
-      "commit": "6c91d9832ea930d9e18ef2684dec759e12f112d6"
+      "tag": "v0.2.0",
+      "commit": "d026709d84effeade22f792bc68f42f646ef1d87"
     },
     {
       "repo": "hangar-ai/kit-editor",
-      "tag": "v0.1.0",
-      "commit": "51da982cdd61c945f09c0761f6097550b5a9a4da"
+      "tag": "v0.2.0",
+      "commit": "db97bfa939f373cfc0ff6315bbbd139ffdc29195"
     },
     {
       "repo": "hangar-ai/kit-github",
-      "tag": "v0.1.0",
-      "commit": "ddfa6c4e279c75bb486ef92d4ef1e9d0c157a499"
+      "tag": "v0.2.0",
+      "commit": "054ea0028f6735037a8883029b1fe865e7d212ce"
     },
     {
       "repo": "hangar-ai/kit-guard",
-      "tag": "v0.1.1",
-      "commit": "351774d5d2cb7cd4ac1cccce64e4d7f3252ed59d"
+      "tag": "v0.2.0",
+      "commit": "2c2d57e53ef581d5ea8a09d6f7fee567d038dd31"
     },
     {
       "repo": "hangar-ai/kit-services",
-      "tag": "v0.1.2",
-      "commit": "9eb87809c911a16273960e4d3803501309789e5e"
+      "tag": "v0.2.0",
+      "commit": "d8d0fa2f1d64fc39561e276483bc36c1ac7f3237"
     },
     {
       "repo": "hangar-ai/kit-tests",
-      "tag": "v0.1.0",
-      "commit": "5f8aff473ab36526f09ff7573a56256b8d3fc7fa"
+      "tag": "v0.2.0",
+      "commit": "4f496ca2d6c7c47a330ac96e419f7b40e2b5f900"
     },
     {
       "repo": "hangar-ai/kit-todo",
-      "tag": "v0.1.0",
-      "commit": "8c5a8bbb952ea8bd9631108caf350bb88a6e64e5"
+      "tag": "v0.2.0",
+      "commit": "f195575ddc17b6eccf6af4ac6890c1f5892d4045"
     }
   ]
 }
